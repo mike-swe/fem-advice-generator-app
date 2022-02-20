@@ -17,9 +17,6 @@ body {
   background: #4e5d73;
   color: #cee3e9;
   font-family: 'Manrope', sans-serif;
-}
-
-main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -30,13 +27,16 @@ main {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  text-align: center;
+}
+
+main {
   width: 1400px;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 a, button {

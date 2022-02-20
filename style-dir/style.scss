@@ -7,14 +7,16 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    left: 26rem;
-    top: 12.6rem;
+    align-content: center;
     background: $DarkGrayishBlue;
     padding: 2rem;
     width: 35rem;
     margin: 0 auto;
     border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) !important;
 }
 
 p
@@ -44,5 +46,25 @@ h1
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    transform: translateY(3.88rem)
+    transform: translateY(3.88rem);
+}
+
+#generatorBtn:hover
+{
+    box-shadow: 0 0 30px 5px $NeonGreen;
+}
+
+@media screen and (max-width: 850px) {
+
+   #advice-container {
+    width: 19rem !important;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateX(-10rem) translateY(-8rem) !important;
+   }
+
+   h1
+   {
+       font-size: 1.6rem;
+   }
 }
