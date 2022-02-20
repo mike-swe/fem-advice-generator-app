@@ -1,0 +1,109 @@
+html {
+  font-size: 100%;
+  line-height: 1.5;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Manrope', sans-serif,  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: #4e5d73;
+  color: #cee3e9;
+  font-family: 'Manrope', sans-serif;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 1400px;
+  margin: 0 auto;
+}
+
+a, button {
+  text-decoration: none;
+  border: none;
+  outline: none;
+  color: #111;
+}
+
+#advice-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  left: 26rem;
+  top: 12.6rem;
+  background: #323a49;
+  padding: 2rem;
+  width: 35rem;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+p {
+  color: #52ffa8;
+  text-transform: uppercase;
+  font-weight: 200;
+}
+
+h1 {
+  text-align: center;
+}
+
+#devider {
+  -webkit-transform: translateY(2rem);
+          transform: translateY(2rem);
+}
+
+#generatorBtn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #52ffa8;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  -webkit-transform: translateY(3.88rem);
+          transform: translateY(3.88rem);
+}
+/*# sourceMappingURL=style.css.map */
